@@ -9,7 +9,11 @@ The commented sections are often results of troubleshooting, so they may be help
 
 
 detectBrightSpots.py is for finding the locations of stars in images and exports a txt file with their relative locations to be compared against, used as a shell command.
+
 rotatePoints.py, convertCoord.py, and compareCoordinates.py are all dependencies for photoSkyPlot.py
+
 rotatePoints is used to generate new plots of star locations in the sky to account for the top of the image not being pointed due north
+
 convertCoord is used to convert points from altitude and azimuth which signify location in the sky to x and y coordinates which can be compared to what the image points appear to be
+
 photoSkyPlot is the main file, it combindes the functions of all the dependencies generates plots for a variety of locations around the earth to see which fits the image best
