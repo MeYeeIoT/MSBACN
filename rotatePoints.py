@@ -20,8 +20,3 @@ class rotatePoints:
 		finalX = (x2*self.cosD(theta))-(y2*self.sinD(theta))
 		finalY = (x2*self.sinD(theta))+(y2*self.cosD(theta))
 		return finalX, finalY
-
-#object = rotatePoints(51, -40, 330)
-#print(object.sinD(-79))
-#print(object.rotate(object.x, object.y, object.theta))
-#print(object.sinD(30))
